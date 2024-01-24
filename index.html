@@ -99,11 +99,11 @@
         <form>
           <div class="form">
             <label class="label" for="user-name">Name</label>
-              <input class="input" type="text" id="user-name" name="user-name" placeholder="Your name" required>
+              <input class="input" type="text" id="user-name" name="user-name" placeholder="Your name" required pattern="[A-Za-z]{5,}" title= "Must contain only uppercase and lowercase letter, and at least 5 characters" >
           </div>
           <div class="form">
             <label class="label" for="email">Email</label>
-              <input class="input" type="email" id="email" name="email" placeholder="Your email" required>
+              <input class="input" type="email" id="email" name="email" placeholder="Your email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
           </div>
           <button class="button-send" type="submit">Send</button>
         </form>

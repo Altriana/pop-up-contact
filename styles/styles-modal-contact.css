@@ -6,6 +6,8 @@
 :root {
     --grey:#5C5C5C;
     --milk:#D7D7D7;
+
+
 }
 .modal-contact {
     width: 100%;
@@ -74,6 +76,18 @@
     padding: 10px 12px;
     margin-bottom: 14px;
 }
+.input:hover,
+.input:focus {
+    border: 1px solid rgba(17, 17, 17, 0.70);
+}
+.input:not(:placeholder-shown):required:invalid {
+    border: 1px solid var(--error-state);
+}
+
+.input:not(:placeholder-shown):required:valid {
+    border: 1px solid var(--correct-state);
+}
+
 .button-send {
     display: flex;
     width: 100%;
@@ -89,4 +103,7 @@
     font-size: 14px;
     font-weight: 600;
     margin-top: 10px;
+}
+.button-send:active {
+    background-color: var(--brand-color);
 }
