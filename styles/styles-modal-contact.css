@@ -104,7 +104,15 @@
     font-size: 14px;
     font-weight: 600;
     margin-top: 10px;
+    cursor: pointer;
 }
 .button-send:active {
     background-color: var(--brand-color);
+}
+
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1158px) {
+
 }
