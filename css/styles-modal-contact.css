@@ -22,7 +22,6 @@ body {
     --milk:#D7D7D7;
 }
 .modal-contact {
-    display: block;
     width: 100%;
     max-width: 272px;
     height: 357px;
@@ -34,9 +33,14 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 28px 16px;
 }
+.display-one {
+    display: block;
+}
+.display-two {
+    display: block;
+}
 
-
-.close-button {
+.close-button-modal {
     fill: var(--black);
     background-color: transparent;
     border: none;
@@ -55,6 +59,7 @@ body {
     fill: currentColor;
 }
 .title-contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: var(--black);
@@ -118,6 +123,10 @@ body {
 .button-send:active {
     background-color: var(--brand-color);
 }
+.img-thankyou {
+    max-width: 188px;
+    text-align: center;
+}
 
 @media screen and (min-width: 768px) {
     .modal-contact {
@@ -150,8 +159,9 @@ body {
     .icon-x {
         padding: 0;
         width: 24px;
+        height: 24px;
     }
-    .close-button {
+    .close-button-modal {
         width: 24px;
         height: 24px;
         top: 24px;
