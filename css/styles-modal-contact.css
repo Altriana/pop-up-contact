@@ -15,6 +15,7 @@
     --milk:#D7D7D7;
 }
 .modal-contact {
+    display: block;
     width: 100%;
     max-width: 272px;
     height: 357px;
