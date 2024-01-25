@@ -1,13 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-Line-1-1-1" viewBox="0 0 6080 32">
-<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="32" d="M0 16h6080"></path>
-</symbol>
-<symbol id="icon-x" viewBox="0 0 32 32">
-<path d="M30.222 1.778l-28.444 28.444M30.222 30.222v0z"></path>
-</symbol>
-<symbol id="icon-Vector" viewBox="0 0 32 32">
-<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+<symbol id="icon-x-contact" viewBox="0 0 32 32">
+<path stroke="#000000" stroke-width="2.6667" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #000000" d="M24 8l-16 16"></path>
+<path stroke="#000000" stroke-width="2.6667" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #000000" d="M8 8l16 16"></path>
 </symbol>
 </defs>
 </svg>
