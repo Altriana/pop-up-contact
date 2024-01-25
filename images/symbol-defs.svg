@@ -1,7 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-x-contact" viewBox="0 0 32 32">
-<path d="M20 4L4 20M20 20L4 4L20 20Z" stroke="black" stroke-width="2" stroke-linecap="round"/>
-</symbol>
+<path d="M20 4L4 20M20 20L4 4L20 20Z" stroke="black" stroke-width="2" stroke-linecap="round"/> </symbol>
 </defs>
 </svg>
