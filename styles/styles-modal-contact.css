@@ -14,9 +14,6 @@
     max-width: 272px;
     height: 357px;
     background-color: var(--white);
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20),
-        0px 1px 3px 0px rgba(0, 0, 0, 0.12),
-        0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     position: absolute;
     top: 55%;
     left: 50%;
