@@ -3,9 +3,6 @@ body {
     font-family: "Montserrat", sans-serif;
     color: var(--black);
 }
-body {
-    background-color: #3cbc81;
-}
 
 :root {
     --brand-color: #e86f54;
