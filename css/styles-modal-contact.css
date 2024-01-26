@@ -36,10 +36,6 @@ body {
     pointer-events: none;
 }
 
-.display-two {
-    display: none;
-}
-
 .close-button-modal {
     fill: var(--black);
     padding: 0;
@@ -124,10 +120,6 @@ body {
 }
 .button-send:active {
     background-color: var(--brand-color);
-}
-.img-thankyou {
-    max-width: 188px;
-    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
