@@ -1,5 +1,6 @@
 .display-two {
-    display: block;
+    /* tymczasowe rozwiązanie bo nie ma js */
+    display: block; 
     padding: 32px 16px;
 }
 .img-thankyou {
